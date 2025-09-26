@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   // Configuración para GitHub Pages
   output: 'export',
   trailingSlash: true,
+  basePath: '/Circunferencias',
+  assetPrefix: '/Circunferencias/',
   
   // Configuración base del proyecto
   typescript: {
@@ -40,10 +42,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  
-  // Si necesitas usar basePath para GitHub Pages (descomenta si es necesario)
-  // basePath: '/Circunferencias',
-  // assetPrefix: '/Circunferencias/',
 };
 
 export default nextConfig;
